@@ -1,0 +1,85 @@
+:root {
+  --oks-palette-primary-50: var(--color-primary-50);
+  --oks-palette-primary-100: var(--color-primary-100);
+  --oks-palette-primary-200: var(--color-primary-200);
+  --oks-palette-primary-300: var(--color-primary-300);
+  --oks-palette-primary-400: var(--color-primary-400);
+  --oks-palette-primary-500: var(--color-primary-500);
+  --oks-palette-primary-600: var(--color-primary-600);
+  --oks-palette-primary-700: var(--color-primary-700);
+  --oks-palette-primary-800: var(--color-primary-800);
+  --oks-palette-primary-900: var(--color-primary-900);
+  --oks-palette-primary-950: var(--color-primary-950);
+
+  --oks-palette-success-50: var(--color-success-50);
+  --oks-palette-success-100: var(--color-success-100);
+  --oks-palette-success-200: var(--color-success-200);
+  --oks-palette-success-300: var(--color-success-300);
+  --oks-palette-success-400: var(--color-success-400);
+  --oks-palette-success-500: var(--color-success-500);
+  --oks-palette-success-600: var(--color-success-600);
+  --oks-palette-success-700: var(--color-success-700);
+  --oks-palette-success-800: var(--color-success-800);
+  --oks-palette-success-900: var(--color-success-900);
+  --oks-palette-success-950: var(--color-success-950);
+
+  --oks-palette-warning-50: var(--color-warning-50);
+  --oks-palette-warning-100: var(--color-warning-100);
+  --oks-palette-warning-200: var(--color-warning-200);
+  --oks-palette-warning-300: var(--color-warning-300);
+  --oks-palette-warning-400: var(--color-warning-400);
+  --oks-palette-warning-500: var(--color-warning-500);
+  --oks-palette-warning-600: var(--color-warning-600);
+  --oks-palette-warning-700: var(--color-warning-700);
+  --oks-palette-warning-800: var(--color-warning-800);
+  --oks-palette-warning-900: var(--color-warning-900);
+  --oks-palette-warning-950: var(--color-warning-950);
+
+  --oks-palette-danger-50: var(--color-danger-50);
+  --oks-palette-danger-100: var(--color-danger-100);
+  --oks-palette-danger-200: var(--color-danger-200);
+  --oks-palette-danger-300: var(--color-danger-300);
+  --oks-palette-danger-400: var(--color-danger-400);
+  --oks-palette-danger-500: var(--color-danger-500);
+  --oks-palette-danger-600: var(--color-danger-600);
+  --oks-palette-danger-700: var(--color-danger-700);
+  --oks-palette-danger-800: var(--color-danger-800);
+  --oks-palette-danger-900: var(--color-danger-900);
+  --oks-palette-danger-950: var(--color-danger-900);
+
+  --oks-palette-info-50: var(--color-info-50);
+  --oks-palette-info-100: var(--color-info-100);
+  --oks-palette-info-200: var(--color-info-200);
+  --oks-palette-info-300: var(--color-info-300);
+  --oks-palette-info-400: var(--color-info-400);
+  --oks-palette-info-500: var(--color-info-500);
+  --oks-palette-info-600: var(--color-info-600);
+  --oks-palette-info-700: var(--color-info-700);
+  --oks-palette-info-800: var(--color-info-800);
+  --oks-palette-info-900: var(--color-info-900);
+  --oks-palette-info-950: var(--color-info-950);
+
+  --oks-palette-secondary-50: var(--color-neutrals-50);
+  --oks-palette-secondary-100: var(--color-neutrals-100);
+  --oks-palette-secondary-200: var(--color-neutrals-200);
+  --oks-palette-secondary-300: var(--color-neutrals-300);
+  --oks-palette-secondary-400: var(--color-neutrals-400);
+  --oks-palette-secondary-500: var(--color-neutrals-500);
+  --oks-palette-secondary-600: var(--color-neutrals-600);
+  --oks-palette-secondary-700: var(--color-neutrals-700);
+  --oks-palette-secondary-800: var(--color-neutrals-800);
+  --oks-palette-secondary-900: var(--color-neutrals-900);
+  --oks-palette-secondary-950: var(--color-neutrals-900);
+
+  --oks-palette-neutral-50: var(--color-neutrals-50);
+  --oks-palette-neutral-100: var(--color-neutrals-100);
+  --oks-palette-neutral-200: var(--color-neutrals-200);
+  --oks-palette-neutral-300: var(--color-neutrals-300);
+  --oks-palette-neutral-400: var(--color-neutrals-400);
+  --oks-palette-neutral-500: var(--color-neutrals-500);
+  --oks-palette-neutral-600: var(--color-neutrals-600);
+  --oks-palette-neutral-700: var(--color-neutrals-700);
+  --oks-palette-neutral-800: var(--color-neutrals-800);
+  --oks-palette-neutral-900: var(--color-neutrals-900);
+  --oks-palette-neutral-950: var(--color-neutrals-900);
+}
