@@ -12,10 +12,15 @@ import React from "react";
 import {
   AlertList,
   AvatarList,
+  BackdropList,
   BadgeList,
   ButtonList,
   ChipList,
+  DividerList,
   DropdownList,
+  DrawerList,
+  ModalList,
+  PageTitleList,
   ToastList,
   TooltipList,
 } from "./componentsList";
@@ -41,6 +46,21 @@ const Dashboard = () => {
         </Tab>
         <Tab key="dropdown" title="Dropdown">
           <DropdownList />
+        </Tab>
+        <Tab key="divider" title="Divider">
+          <DividerList />
+        </Tab>
+        <Tab key="backdrop" title="Backdrop">
+          <BackdropList />
+        </Tab>
+        <Tab key="drawer" title="Drawer">
+          <DrawerList />
+        </Tab>
+        <Tab key="modal" title="Modal">
+          <ModalList />
+        </Tab>
+        <Tab key="pageTitle" title="PageTitle">
+          <PageTitleList />
         </Tab>
         <Tab key="tooltip" title="Tooltip">
           <TooltipList />
