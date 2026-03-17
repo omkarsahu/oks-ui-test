@@ -47,11 +47,11 @@ const Dashboard = () => {
         <Tab key="chip" title="Chip">
           <ChipList />
         </Tab>
-        <Tab key="dropdown" title="Dropdown">
-          <DropdownList />
-        </Tab>
         <Tab key="divider" title="Divider">
           <DividerList />
+        </Tab>
+        <Tab key="dropdown" title="Dropdown">
+          <DropdownList />
         </Tab>
         <Tab key="drawer" title="Drawer">
           <DrawerList />

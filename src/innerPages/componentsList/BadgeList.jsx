@@ -17,7 +17,6 @@ const BadgeList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
-      <PropsTable />
       <Variants />
       <Colors />
       <Sizes />
@@ -27,9 +26,9 @@ const BadgeList = () => {
       <Visibility />
       <DotAndOneChar />
       <ClassNames />
+      <PropsTable />
     </div>
   );
 };
 
 export default BadgeList;
-

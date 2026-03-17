@@ -18,7 +18,6 @@ const ChipList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
-      <PropsTable />
       <Variants />
       <Colors />
       <ColorDepth />
@@ -29,6 +28,7 @@ const ChipList = () => {
       <Avatar />
       <CloseButton />
       <ClassNames />
+      <PropsTable />
     </div>
   );
 };

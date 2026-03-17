@@ -5,9 +5,9 @@ const DividerList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
-      <PropsTable />
       <Variants />
       <Vertical />
+      <PropsTable />
     </div>
   );
 };

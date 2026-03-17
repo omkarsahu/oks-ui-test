@@ -22,7 +22,6 @@ const ButtonList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
-      <PropsTable />
       <Disabled />
       <Sizes />
       <Radius />
@@ -37,6 +36,7 @@ const ButtonList = () => {
       <PressEvents />
       <MotionAndRipple />
       <CustomStyles />
+      <PropsTable />
     </div>
   );
 };
