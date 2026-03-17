@@ -6,6 +6,7 @@ import {
   EndContent,
   HowToUse,
   IconControls,
+  PropsTable,
   Radius,
   Variants,
   Visible,
@@ -23,6 +24,7 @@ const AlertList = () => {
       <Closable />
       <Visible />
       <ClassNames />
+      <PropsTable />
     </div>
   );
 };

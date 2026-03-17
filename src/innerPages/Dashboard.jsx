@@ -35,6 +35,9 @@ const Dashboard = () => {
         <Tab key="avatar" title="Avatar">
           <AvatarList />
         </Tab>
+        <Tab key="backdrop" title="Backdrop">
+          <BackdropList />
+        </Tab>
         <Tab key="badge" title="Badge">
           <BadgeList />
         </Tab>
@@ -49,9 +52,6 @@ const Dashboard = () => {
         </Tab>
         <Tab key="divider" title="Divider">
           <DividerList />
-        </Tab>
-        <Tab key="backdrop" title="Backdrop">
-          <BackdropList />
         </Tab>
         <Tab key="drawer" title="Drawer">
           <DrawerList />

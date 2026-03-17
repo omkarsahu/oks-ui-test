@@ -16,13 +16,22 @@ const Disabled = () => {
           </Tooltip>
         </div>
       }
-      code={
-        <>
-          {`<Tooltip content="Disabled tooltip" isDisabled>
-  <button type="button">Disabled tooltip</button>
-</Tooltip>`}
-        </>
-      }
+      code={`import React from "react";
+import { Button, Tooltip } from "oks-ui";
+
+export default function Example() {
+  return (
+    <div className="flex gap-3 items-center flex-wrap">
+      <Tooltip content="You won't see this" isDisabled>
+        <Button variant="bordered">Disabled tooltip</Button>
+      </Tooltip>
+
+      <Tooltip content="Disabled tooltip" isDisabled showArrow>
+        <Button color="danger">Danger</Button>
+      </Tooltip>
+    </div>
+  );
+}`}
     />
   );
 };

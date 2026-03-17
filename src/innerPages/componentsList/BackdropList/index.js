@@ -1,3 +1,10 @@
 export { default as HowToUse } from "./HowToUse";
 export { default as Animations } from "./Animations";
-export { default as Options } from "./Options";
+export { default as BlurOption } from "./BlurOption";
+export { default as DismissOptions } from "./DismissOptions";
+export { default as ScrollLockOption } from "./ScrollLockOption";
+export { default as BackgroundAndLayering } from "./BackgroundAndLayering";
+export { default as Easing } from "./Easing";
+export { default as PortalAndContainer } from "./PortalAndContainer";
+export { default as ContentLayout } from "./ContentLayout";
+export { default as PropsTable } from "./PropsTable";

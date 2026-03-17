@@ -11,3 +11,4 @@ export { default as Focusable } from "./Focusable";
 export { default as CustomImg } from "./CustomImg";
 export { default as ClassNames } from "./ClassNames";
 export { default as Group } from "./Group";
+export { default as PropsTable } from "./PropsTable";

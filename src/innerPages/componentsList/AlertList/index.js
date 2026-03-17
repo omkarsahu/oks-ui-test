@@ -7,4 +7,5 @@ export { default as EndContent } from "./EndContent";
 export { default as Closable } from "./Closable";
 export { default as Visible } from "./Visible";
 export { default as ClassNames } from "./ClassNames";
+export { default as PropsTable } from "./PropsTable";
 

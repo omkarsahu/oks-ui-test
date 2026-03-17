@@ -10,6 +10,7 @@ import {
   Focusable,
   Group,
   HowToUse,
+  PropsTable,
   Radius,
   Sizes,
   Tooltip,
@@ -31,6 +32,7 @@ const AvatarList = () => {
       <CustomImg />
       <ClassNames />
       <Group />
+      <PropsTable />
     </div>
   );
 };

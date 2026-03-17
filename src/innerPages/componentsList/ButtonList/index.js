@@ -13,3 +13,4 @@ export { default as ButtonGroup } from "./ButtonGroup";
 export { default as PressEvents } from "./PressEvents";
 export { default as MotionAndRipple } from "./MotionAndRipple";
 export { default as CustomStyles } from "./CustomStyles";
+export { default as PropsTable } from "./PropsTable";

@@ -9,3 +9,4 @@ export { default as StartEndContent } from "./StartEndContent";
 export { default as Avatar } from "./Avatar";
 export { default as CloseButton } from "./CloseButton";
 export { default as ClassNames } from "./ClassNames";
+export { default as PropsTable } from "./PropsTable";

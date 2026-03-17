@@ -14,6 +14,7 @@ import {
   HowToUse,
   Placement,
   PortalContainer,
+  PropsTable,
   RadiusShadow,
   Sizes,
 } from "./TooltipList/index";
@@ -22,6 +23,7 @@ const TooltipList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
+      <PropsTable />
       <Controlled />
       <DefaultOpen />
       <Sizes />

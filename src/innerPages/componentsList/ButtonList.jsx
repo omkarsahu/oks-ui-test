@@ -11,6 +11,7 @@ import {
   Loading,
   MotionAndRipple,
   PressEvents,
+  PropsTable,
   Radius,
   Sizes,
   Variants,
@@ -21,6 +22,7 @@ const ButtonList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
+      <PropsTable />
       <Disabled />
       <Sizes />
       <Radius />

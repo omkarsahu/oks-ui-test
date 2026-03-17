@@ -11,6 +11,7 @@ import {
   Icons,
   Placement,
   PromiseToast,
+  PropsTable,
   ProviderProps,
   ToneSize,
   Types,
@@ -24,6 +25,7 @@ const ToastList = () => {
     <div className="flex flex-col gap-10">
       <ProviderProps />
       <HowToUse />
+      <PropsTable />
       <AddToast />
       <AddToastPromise />
       <Types />

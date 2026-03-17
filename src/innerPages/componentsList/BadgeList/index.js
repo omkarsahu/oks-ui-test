@@ -8,4 +8,5 @@ export { default as Outline } from "./Outline";
 export { default as Visibility } from "./Visibility";
 export { default as DotAndOneChar } from "./DotAndOneChar";
 export { default as ClassNames } from "./ClassNames";
+export { default as PropsTable } from "./PropsTable";
 

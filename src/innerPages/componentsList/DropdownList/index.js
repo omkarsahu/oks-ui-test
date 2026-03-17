@@ -15,3 +15,4 @@ export { default as WithDescription } from "./WithDescription";
 export { default as WithSections } from "./WithSections";
 export { default as Selection } from "./Selection";
 export { default as DynamicItems } from "./DynamicItems";
+export { default as PropsTable } from "./PropsTable";

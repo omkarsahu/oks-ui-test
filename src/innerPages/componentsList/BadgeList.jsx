@@ -6,6 +6,7 @@ import {
   HowToUse,
   Outline,
   Placements,
+  PropsTable,
   Shapes,
   Sizes,
   Variants,
@@ -16,6 +17,7 @@ const BadgeList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
+      <PropsTable />
       <Variants />
       <Colors />
       <Sizes />

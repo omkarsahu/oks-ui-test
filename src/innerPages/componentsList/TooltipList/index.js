@@ -14,3 +14,4 @@ export { default as Disabled } from "./Disabled";
 export { default as ClassNames } from "./ClassNames";
 export { default as PortalContainer } from "./PortalContainer";
 export { default as Animation } from "./Animation";
+export { default as PropsTable } from "./PropsTable";

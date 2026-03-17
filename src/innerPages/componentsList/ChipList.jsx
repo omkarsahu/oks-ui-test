@@ -7,6 +7,7 @@ import {
   Colors,
   Disabled,
   HowToUse,
+  PropsTable,
   Radius,
   Sizes,
   StartEndContent,
@@ -17,6 +18,7 @@ const ChipList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
+      <PropsTable />
       <Variants />
       <Colors />
       <ColorDepth />

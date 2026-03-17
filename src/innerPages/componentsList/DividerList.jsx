@@ -1,10 +1,11 @@
 import React from "react";
-import { HowToUse, Variants, Vertical } from "./DividerList/index";
+import { HowToUse, PropsTable, Variants, Vertical } from "./DividerList/index";
 
 const DividerList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
+      <PropsTable />
       <Variants />
       <Vertical />
     </div>

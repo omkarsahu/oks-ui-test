@@ -15,3 +15,4 @@ export { default as IdOnDismiss } from "./IdOnDismiss";
 export { default as PromiseToast } from "./PromiseToast";
 export { default as UseHook } from "./UseHook";
 export { default as ClassNames } from "./ClassNames";
+export { default as PropsTable } from "./PropsTable";

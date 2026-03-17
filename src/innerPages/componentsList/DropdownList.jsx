@@ -12,6 +12,7 @@ import {
   OffsetAndFlip,
   Placement,
   PortalContainer,
+  PropsTable,
   Selection,
   Variants,
   WithDescription,
@@ -23,6 +24,7 @@ const DropdownList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
+      <PropsTable />
       <ControlledOpen />
       <Placement />
       <OffsetAndFlip />
