@@ -3,12 +3,12 @@ import { Divider } from "oks-ui";
 import { ShowCode } from "../../../components";
 
 const variants = ["fullWidth", "inset", "middle"];
-const tones = ["primary", "secondary", "success", "warning", "danger"];
+const colors = ["primary", "secondary", "success", "warning", "danger"];
 
 const Variants = () => {
   return (
     <ShowCode
-      title="Variants and tones"
+      title="Variants and colors"
       preview={
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-3">
@@ -23,16 +23,16 @@ const Variants = () => {
 
           <div className="flex flex-col gap-3">
             <div className="text-sm font-semibold">With text</div>
-            <Divider tone="secondary" colorDepth={300}>
+            <Divider color="secondary" colorDepth={300}>
               OR
             </Divider>
           </div>
 
           <div className="flex flex-col gap-3">
-            <div className="text-sm font-semibold">Tones</div>
+            <div className="text-sm font-semibold">Colors</div>
             <div className="flex flex-col gap-3">
-              {tones.map((tone) => (
-                <Divider key={tone} tone={tone} colorDepth={300} />
+              {colors.map((color) => (
+                <Divider key={color} color={color} colorDepth={300} />
               ))}
             </div>
           </div>
@@ -41,7 +41,7 @@ const Variants = () => {
       code={
         <>
           {`<Divider variant="inset" />
-<Divider tone="secondary" colorDepth={300}>OR</Divider>
+<Divider color="secondary" colorDepth={300}>OR</Divider>
 <Divider orientation="vertical" />`}
         </>
       }

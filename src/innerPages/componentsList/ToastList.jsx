@@ -25,7 +25,6 @@ const ToastList = () => {
     <div className="flex flex-col gap-10">
       <ProviderProps />
       <HowToUse />
-      <PropsTable />
       <AddToast />
       <AddToastPromise />
       <Types />
@@ -41,6 +40,7 @@ const ToastList = () => {
       <PromiseToast />
       <UseHook />
       <ClassNames />
+      <PropsTable />
     </div>
   );
 };

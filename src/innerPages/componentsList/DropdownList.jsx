@@ -24,7 +24,6 @@ const DropdownList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
-      <PropsTable />
       <ControlledOpen />
       <Placement />
       <OffsetAndFlip />
@@ -41,6 +40,7 @@ const DropdownList = () => {
       <WithSections />
       <Selection />
       <DynamicItems />
+      <PropsTable />
     </div>
   );
 };

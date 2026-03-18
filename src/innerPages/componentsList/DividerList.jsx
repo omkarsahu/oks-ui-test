@@ -1,5 +1,11 @@
 import React from "react";
-import { HowToUse, PropsTable, Variants, Vertical } from "./DividerList/index";
+import {
+  HowToUse,
+  PropsTable,
+  ThicknessAndLabel,
+  Variants,
+  Vertical,
+} from "./DividerList/index";
 
 const DividerList = () => {
   return (
@@ -7,6 +13,7 @@ const DividerList = () => {
       <HowToUse />
       <Variants />
       <Vertical />
+      <ThicknessAndLabel />
       <PropsTable />
     </div>
   );

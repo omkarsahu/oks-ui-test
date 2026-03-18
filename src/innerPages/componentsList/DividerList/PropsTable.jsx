@@ -16,20 +16,14 @@ const PropsTable = () => {
       description: "Layout variant.",
     },
     {
-      prop: "tone",
-      type: 'DividerTone (e.g. "primary" | "info" | "success" | ... | string)',
-      default: '"primary"',
-      description: "Semantic tone for divider color.",
-    },
-    {
       prop: "color",
-      type: "DividerTone",
-      default: "—",
-      description: "Alias for tone.",
+      type: 'DividerColor (e.g. "primary" | "secondary" | "success" | ... | string)',
+      default: '"primary"',
+      description: "Semantic color for divider line.",
     },
     {
       prop: "colorDepth",
-      type: "number",
+      type: "DividerColorDepth",
       default: "300",
       description: "Color intensity (snapped to 50..950).",
     },
@@ -63,4 +57,3 @@ const PropsTable = () => {
 };
 
 export default PropsTable;
-

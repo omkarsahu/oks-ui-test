@@ -23,7 +23,6 @@ const TooltipList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
-      <PropsTable />
       <Controlled />
       <DefaultOpen />
       <Sizes />
@@ -39,6 +38,7 @@ const TooltipList = () => {
       <ClassNames />
       <PortalContainer />
       <Animation />
+      <PropsTable />
     </div>
   );
 };

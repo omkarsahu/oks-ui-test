@@ -11,7 +11,7 @@ const Vertical = () => {
           <div className="flex-1 bg-white rounded-md border border-gray-200 p-4">
             Left
           </div>
-          <Divider orientation="vertical" tone="secondary" colorDepth={200} />
+          <Divider orientation="vertical" color="secondary" colorDepth={200} />
           <div className="flex-1 bg-white rounded-md border border-gray-200 p-4">
             Right
           </div>
@@ -21,7 +21,7 @@ const Vertical = () => {
         <>
           {`<div className="flex items-stretch h-24">
   <div className="flex-1">Left</div>
-  <Divider orientation="vertical" />
+  <Divider orientation="vertical" color="secondary" colorDepth={200} />
   <div className="flex-1">Right</div>
 </div>`}
         </>

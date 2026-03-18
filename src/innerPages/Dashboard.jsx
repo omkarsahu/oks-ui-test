@@ -50,11 +50,11 @@ const Dashboard = () => {
         <Tab key="divider" title="Divider">
           <DividerList />
         </Tab>
-        <Tab key="dropdown" title="Dropdown">
-          <DropdownList />
-        </Tab>
         <Tab key="drawer" title="Drawer">
           <DrawerList />
+        </Tab>
+        <Tab key="dropdown" title="Dropdown">
+          <DropdownList />
         </Tab>
         <Tab key="modal" title="Modal">
           <ModalList />

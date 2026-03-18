@@ -159,10 +159,9 @@ const PropsTable = () => {
     <PropsTableBase
       title="Drawer Props"
       rows={rows}
-      footnote="Drawer is a controlled component: provide isOpen and onClose."
+      footnote="Drawer is controlled (isOpen/onClose). Advanced overlay behavior can be customized via the backdrop prop."
     />
   );
 };
 
 export default PropsTable;
-

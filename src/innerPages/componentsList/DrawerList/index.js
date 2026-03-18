@@ -1,4 +1,9 @@
 export { default as HowToUse } from "./HowToUse";
 export { default as Positions } from "./Positions";
+export { default as Sizing } from "./Sizing";
+export { default as Accessibility } from "./Accessibility";
 export { default as Options } from "./Options";
+export { default as MotionAndBackdrop } from "./MotionAndBackdrop";
+export { default as PortalAndContainer } from "./PortalAndContainer";
+export { default as Headers } from "./Headers";
 export { default as PropsTable } from "./PropsTable";

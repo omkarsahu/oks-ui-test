@@ -1,13 +1,26 @@
 import React from "react";
-import { HowToUse, Options, PropsTable, Sizes } from "./ModalList/index";
+import {
+  CloseLabelDemo,
+  HeaderAndDividerOverrides,
+  HowToUse,
+  MotionAndBackdrop,
+  Options,
+  PortalAndContainer,
+  PropsTable,
+  Sizes,
+} from "./ModalList/index";
 
 const ModalList = () => {
   return (
     <div className="flex flex-col gap-10">
       <HowToUse />
-      <PropsTable />
       <Sizes />
       <Options />
+      <CloseLabelDemo />
+      <MotionAndBackdrop />
+      <PortalAndContainer />
+      <HeaderAndDividerOverrides />
+      <PropsTable />
     </div>
   );
 };
