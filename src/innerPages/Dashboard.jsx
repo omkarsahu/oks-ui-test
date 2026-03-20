@@ -23,12 +23,20 @@ import {
   PageTitleList,
   ToastList,
   TooltipList,
+  FormFieldSetList,
 } from "./componentsList";
 
 const Dashboard = () => {
   return (
     <div className="p-3">
-      <Tabs defaultSelectedKey="alert" color="primary">
+      <Tabs
+        defaultSelectedKey="formFieldSet"
+        color="primary"
+        variant="bordered"
+      >
+        <Tab key="formFieldSet" title="FormFieldSet">
+          <FormFieldSetList />
+        </Tab>
         <Tab key="alert" title="Alert">
           <AlertList />
         </Tab>

@@ -11,3 +11,4 @@ export { default as DividerList } from "./DividerList";
 export { default as DrawerList } from "./DrawerList";
 export { default as ModalList } from "./ModalList";
 export { default as PageTitleList } from "./PageTitleList";
+export { default as FormFieldSetList } from "./FormFieldSetList";
