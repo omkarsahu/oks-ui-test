@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "verify:oks-ui": "node ./scripts/verify-oks-ui-exports.mjs",
     "dev": "vite",
+    "prebuild": "npm run verify:oks-ui",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
